@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Kristjan Lapuh</Author>
+  <LastAuthor>Kristjan Lapuh</LastAuthor>
+  <Created>2019-02-08T16:56:36Z</Created>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17650</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat ss:Format="0"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat ss:Format="m/d/yy"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="14" ss:ExpandedRowCount="12" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="150" ss:Span="13"/>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">created_time</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ad_id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ad_name</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">adset_id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">adset_name</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">campaign_id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">campaign_name</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">form_id</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">form_name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">is_organic</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">platform</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">email</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">full_name</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">299414017438404</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2019-02-08T11:10:13.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923950065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Ad</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923890065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923830065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">294259867953819</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Pisarna360.si 's form created on Sat Jan 26, 2019 4:08pm</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">vinko.krizanec@telemach.net</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Vinko Križanec</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">298993154147157</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2019-02-07T08:47:26.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923950065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Ad</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923890065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923830065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">294259867953819</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Pisarna360.si 's form created on Sat Jan 26, 2019 4:08pm</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">tade.taskovic@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Tadej Taskovic</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">298427140870425</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2019-02-05T22:31:24.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923950065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Ad</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923890065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923830065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">294259867953819</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Pisarna360.si 's form created on Sat Jan 26, 2019 4:08pm</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">avto.pem@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Bojan Pem Avto Pem</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">298183270894812</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2019-02-05T08:46:56.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923950065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Ad</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923890065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923830065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">294259867953819</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Pisarna360.si 's form created on Sat Jan 26, 2019 4:08pm</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">v.jukic@siol.net</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Veljko Jukič</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">297995880913551</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2019-02-04T20:08:18.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923950065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Ad</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923890065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923830065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">294259867953819</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Pisarna360.si 's form created on Sat Jan 26, 2019 4:08pm</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">saso.lap@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Sašo Lap</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">297984044248068</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2019-02-04T19:30:25.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923950065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Ad</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923890065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923830065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">294259867953819</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Pisarna360.si 's form created on Sat Jan 26, 2019 4:08pm</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">smiley.edo@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Edd Smiley</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">297938790919260</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2019-02-04T17:15:20.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923950065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Ad</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923890065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923830065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">294259867953819</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Pisarna360.si 's form created on Sat Jan 26, 2019 4:08pm</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">miklavz.koren@siol.net</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Miklavz Koren</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">297466120966527</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2019-02-03T14:37:59.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923950065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Ad</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923890065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923830065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">294259867953819</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Pisarna360.si 's form created on Sat Jan 26, 2019 4:08pm</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">janez.novak1@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Janez Novak</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">295491707830635</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2019-01-29T21:42:05.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923950065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Ad</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923890065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923830065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">294259867953819</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Pisarna360.si 's form created on Sat Jan 26, 2019 4:08pm</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">sebastjan.dvojmoc@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Sebastjan Dvojmoc</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">295084541204685</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2019-01-28T19:43:14.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923950065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Ad</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923890065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923830065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">294259867953819</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Pisarna360.si 's form created on Sat Jan 26, 2019 4:08pm</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">mikimiska2018@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Andrej Novak</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">294534291259710</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2019-01-27T10:11:22.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923950065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Ad</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923890065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23843260923830065</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ongoing Lead Generation Promotion Pisarna360.si</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">294259867953819</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Pisarna360.si 's form created on Sat Jan 26, 2019 4:08pm</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">fb</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">h.barbariga@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Helmut Klemenčič</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <LeftColumnVisible>2</LeftColumnVisible>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

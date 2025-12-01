@@ -1,0 +1,43 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+html, body {
+  overflow-x: hidden; /* Prepreči horizontalni scroll */
+  width: 100%;
+}
+
+/* Custom scrollbar za lepši izgled */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Responsive pricing card scale - samo na velikih zaslonih */
+@media (min-width: 992px) {
+  .pricing-card-recommended {
+    transform: scale(1.05);
+    z-index: 10;
+  }
+}
+
+/* Na mobilnih napravah naj bo kartica normalne velikosti, a z malo margine */
+@media (max-width: 991px) {
+  .pricing-card-recommended {
+    transform: scale(1);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #0d6efd !important; /* Da se še vedno vidi, da je poudarjena */
+  }
+}
