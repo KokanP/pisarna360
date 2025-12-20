@@ -46,9 +46,9 @@ const Pricing = () => {
     <section id="cenik" className="py-5 bg-light">
       <Container>
         <div className="text-center mb-5">
-          <h2 className="fw-bold mb-3">Pregledni paketi za vsako podjetje</h2>
+          <h2 className="fw-bold mb-3">Prilagodljivi paketi za digitalno dobo</h2>
           <p className="text-muted lead">
-            Izberite paket, ki najbolj ustreza vašim potrebam. Brez skritih stroškov.
+            Izberite idealen paket virtualne pisarne, ki raste z vašim poslom. Transparentne cene, brez skritih stroškov.
           </p>
         </div>
         <Row className="g-4 align-items-center justify-content-center">
@@ -59,7 +59,7 @@ const Pricing = () => {
               >
                 {plan.recommended && (
                   <div className="bg-primary text-white text-center py-1 small fw-bold text-uppercase">
-                    Najbolj priljubljeno
+                    Najbolj priljubljen
                   </div>
                 )}
                 <Card.Body className="p-5 text-center d-flex flex-column">
@@ -81,7 +81,7 @@ const Pricing = () => {
                     size="lg" 
                     className="w-100 mt-auto"
                   >
-                    Izberi paket
+                    Izberite ta paket
                   </Button>
                 </Card.Body>
               </Card>

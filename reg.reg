@@ -1,0 +1,28 @@
+Windows Registry Editor Version 5.00
+
+; --- MAPE (Directory) ---
+[HKEY_CLASSES_ROOT\Directory\shell\powershelladmin]
+@="Odpri PowerShell (Admin)"
+"Icon"="powershell.exe"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\powershelladmin\command]
+@="powershell.exe -Command \"Start-Process powershell -ArgumentList '-NoExit', '-Command Set-Location -LiteralPath ''%V''' -Verb RunAs\""
+
+; --- OZADJE MAP (Background) ---
+[HKEY_CLASSES_ROOT\Directory\Background\shell\powershelladmin]
+@="Odpri PowerShell (Admin)"
+"Icon"="powershell.exe"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\powershelladmin\command]
+@="powershell.exe -Command \"Start-Process powershell -ArgumentList '-NoExit', '-Command Set-Location -LiteralPath ''%V''' -Verb RunAs\""
+
+; --- DISKI (Drive) ---
+[HKEY_CLASSES_ROOT\Drive\shell\powershelladmin]
+@="Odpri PowerShell (Admin)"
+"Icon"="powershell.exe"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Drive\shell\powershelladmin\command]
+@="powershell.exe -Command \"Start-Process powershell -ArgumentList '-NoExit', '-Command Set-Location -LiteralPath ''%V''' -Verb RunAs\""

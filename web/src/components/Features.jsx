@@ -5,33 +5,33 @@ import { Mail, Bell, ShieldCheck, MapPin, Clock, Monitor } from 'lucide-react';
 const features = [
   {
     icon: <MapPin size={40} className="text-primary mb-3" />,
-    title: "Prestižna lokacija",
-    description: "Sedež podjetja na Kržičevi 4 v Ljubljani. Ugleden naslov za vaše poslovanje."
+    title: "Prestižna poslovna lokacija",
+    description: "Registrirajte sedež podjetja na elitni lokaciji Kržičeva 4 v Ljubljani in izboljšajte ugled vašega poslovanja."
   },
   {
     icon: <Mail size={40} className="text-primary mb-3" />,
-    title: "Sprejem pošte",
-    description: "Vso vašo poslovno pošto zanesljivo sprejmemo in varno shranimo."
+    title: "Celovito upravljanje pošte",
+    description: "Poskrbimo za profesionalen sprejem, sortiranje in varno shranjevanje vse vaše poslovne pošte."
   },
   {
     icon: <Bell size={40} className="text-primary mb-3" />,
-    title: "Takojšnje obveščanje",
-    description: "O prejeti pošti vas obvestimo še isti dan prek e-pošte ali SMS-a."
+    title: "Takojšnje obveščanje o pošti",
+    description: "Nikoli ne zamudite pomembne pošte – o vsaki prejeti pošiljki vas obvestimo v realnem času preko e-pošte ali SMS-a."
   },
   {
     icon: <ShieldCheck size={40} className="text-primary mb-3" />,
-    title: "Pravna skladnost",
-    description: "Vsa dokumentacija (pogodba, izjava lastnika) je urejena skladno z zakonodajo."
+    title: "Popolna pravna skladnost",
+    description: "Vsa potrebna dokumentacija, vključno z najemno pogodbo in izjavo lastnika, je v celoti usklajena z veljavno zakonodajo."
   },
   {
     icon: <Monitor size={40} className="text-primary mb-3" />,
-    title: "Digitalizacija",
-    description: "Možnost skeniranja vsebine pošte in pošiljanja na vaš e-naslov."
+    title: "Učinkovita digitalizacija pošte",
+    description: "Omogočamo hitro in varno skeniranje prejete pošte ter takojšnje posredovanje na vaš elektronski naslov."
   },
   {
     icon: <Clock size={40} className="text-primary mb-3" />,
-    title: "Hiter postopek",
-    description: "Ureditev vse potrebne dokumentacije za registracijo v manj kot 24 urah."
+    title: "Ekspresna ureditev dokumentacije",
+    description: "Celoten postopek ureditve in priprave dokumentacije za registracijo vašega podjetja zaključimo v manj kot 24 urah."
   }
 ];
 
@@ -75,7 +75,7 @@ const Features = () => {
                         </Col>
                         <Col md={6} className="text-center">
                              <img 
-                                src="/img/plakat_small.jpg" 
+                                src={`${import.meta.env.BASE_URL}img/plakat_small.jpg`}
                                 alt="Delaj kjer koli" 
                                 className="img-fluid rounded shadow-sm transform-rotate-2"
                                 style={{ maxHeight: '250px', transform: 'rotate(2deg)' }}

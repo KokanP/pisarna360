@@ -2,6 +2,41 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+
+  /* Override Bootstrap Primary Color */
+  --bs-primary: #003381;
+  --bs-primary-rgb: 0, 51, 129;
+  --bs-link-color: #003381;
+  --bs-link-hover-color: #00235a;
+}
+
+/* Apply to buttons specifically to override default styles if needed */
+.btn-primary {
+  --bs-btn-bg: #003381;
+  --bs-btn-border-color: #003381;
+  --bs-btn-hover-bg: #002a6b;
+  --bs-btn-hover-border-color: #00255e;
+  --bs-btn-active-bg: #00255e;
+  --bs-btn-active-border-color: #00235a;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #003381;
+  --bs-btn-border-color: #003381;
+  --bs-btn-hover-bg: #003381;
+  --bs-btn-hover-border-color: #003381;
+  --bs-btn-active-bg: #003381;
+  --bs-btn-active-border-color: #003381;
+}
+
+/* Text primary override */
+.text-primary {
+  color: #003381 !important;
+}
+
+/* Border primary override */
+.border-primary {
+  border-color: #003381 !important;
 }
 
 html, body {
@@ -38,6 +73,6 @@ html, body {
     transform: scale(1);
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border: 2px solid #0d6efd !important; /* Da se še vedno vidi, da je poudarjena */
+    border: 2px solid #003381 !important; /* Uporabimo novo barvo */
   }
 }

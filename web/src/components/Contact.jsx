@@ -1,24 +1,15 @@
-import React, { useState } from 'react';
-import { Container, Row, Col, Form, Button, Alert } from 'react-bootstrap';
+import React from 'react';
+import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { Send, MapPin, Mail, Phone, Clock } from 'lucide-react';
 
 const Contact = () => {
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 5000);
-    e.target.reset();
-  };
-
   return (
     <section id="kontakt" className="py-5 bg-light">
       <Container>
         <div className="text-center mb-5">
-          <h2 className="fw-bold mb-3">Stopite v stik z nami</h2>
+          <h2 className="fw-bold mb-3">Imate vprašanje ali potrebujete ponudbo?</h2>
           <p className="text-muted lead">
-            Imate dodatna vprašanja? Pišite nam ali nas pokličite.
+            Pišite nam še danes in z veseljem vam bomo pomagali najti idealno rešitev za vaše poslovanje.
           </p>
         </div>
 
@@ -79,35 +70,30 @@ const Contact = () => {
           <Col lg={6}>
             <div className="bg-white p-4 rounded shadow-sm">
               <h4 className="fw-bold mb-4">Pošljite povpraševanje</h4>
-              {submitted && (
-                <Alert variant="success" className="mb-4">
-                  Hvala za vaše sporočilo! Kontaktirali vas bomo v najkrajšem možnem času.
-                </Alert>
-              )}
-              <Form onSubmit={handleSubmit}>
+              <Form action="https://formspree.io/f/YOUR_FORMSPREE_FORM_ID" method="POST">
                 <Row className="mb-3">
                   <Col md={6}>
                     <Form.Group className="mb-3 mb-md-0" controlId="formName">
                       <Form.Label>Ime in priimek</Form.Label>
-                      <Form.Control type="text" placeholder="Janez Novak" required />
+                      <Form.Control type="text" name="name" placeholder="Janez Novak" required />
                     </Form.Group>
                   </Col>
                   <Col md={6}>
                     <Form.Group controlId="formPhone">
                       <Form.Label>Telefon</Form.Label>
-                      <Form.Control type="tel" placeholder="040 123 456" />
+                      <Form.Control type="tel" name="phone" placeholder="040 123 456" />
                     </Form.Group>
                   </Col>
                 </Row>
 
                 <Form.Group className="mb-3" controlId="formEmail">
                   <Form.Label>E-poštni naslov</Form.Label>
-                  <Form.Control type="email" placeholder="janez@primer.si" required />
+                  <Form.Control type="email" name="email" placeholder="janez@primer.si" required />
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formSubject">
                   <Form.Label>Zadeva</Form.Label>
-                  <Form.Select aria-label="Izberite zadevo">
+                  <Form.Select name="subject" aria-label="Izberite zadevo">
                     <option>Splošno povpraševanje</option>
                     <option>Najem pisarne - Osnovni paket</option>
                     <option>Najem pisarne - Poslovni paket</option>
@@ -117,7 +103,7 @@ const Contact = () => {
 
                 <Form.Group className="mb-4" controlId="formMessage">
                   <Form.Label>Sporočilo</Form.Label>
-                  <Form.Control as="textarea" rows={4} placeholder="Vaše sporočilo..." required />
+                  <Form.Control as="textarea" name="message" rows={4} placeholder="Vaše sporočilo..." required />
                 </Form.Group>
 
                 <Button variant="primary" type="submit" size="lg" className="w-100 d-flex align-items-center justify-content-center">

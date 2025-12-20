@@ -21,6 +21,8 @@ const Footer = () => {
               <li className="mb-2">Ljuan d.o.o.</li>
               <li className="mb-2">Matična številka: 0000000000</li>
               <li className="mb-2">Davčna številka: SI00000000</li>
+              <li className="mb-2"><a href="#privacy-policy" className="text-secondary text-decoration-none">Politika Zasebnosti</a></li>
+              <li className="mb-2"><a href="#terms-and-conditions" className="text-secondary text-decoration-none">Splošni Pogoji Poslovanja</a></li>
             </ul>
           </Col>
           <Col md={4}>

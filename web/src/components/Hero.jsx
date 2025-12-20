@@ -7,7 +7,7 @@ const Hero = () => {
     <div 
       className="py-5 border-bottom position-relative"
       style={{
-        backgroundImage: 'url("/img/ljubljana.jpg")',
+        backgroundImage: `url("${import.meta.env.BASE_URL}img/ljubljana.jpg")`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed' // Parallax effect
@@ -23,15 +23,14 @@ const Hero = () => {
         <Row className="align-items-center">
           <Col lg={6} className="mb-5 mb-lg-0 text-center text-lg-start">
             <h1 className="display-4 fw-bold mb-3">
-              Vaš poslovni naslov v <span className="text-primary">središču Ljubljane</span>
+              Prva izbira za <span className="text-primary">virtualno pisarno</span> v Ljubljani
             </h1>
             <p className="lead text-muted mb-4">
-              Registrirajte svoje podjetje na prestižni lokaciji Kržičeva 4. 
-              Popolna rešitev za virtualno pisarno z vso potrebno podporo.
+              Z nami dobite več kot le poslovni naslov – pridobite celovito podporo in prepoznavnost na prestižni lokaciji Kržičeva 4.
             </p>
             <div className="d-flex gap-3 justify-content-center justify-content-lg-start flex-column flex-sm-row">
-              <Button variant="primary" size="lg" href="#cenik">
-                Izberite paket <ArrowRight size={20} className="ms-2" />
+              <Button variant="primary" size="lg" href="#pricing">
+                Preverite pakete <ArrowRight size={20} className="ms-2" />
               </Button>
               <Button variant="outline-secondary" size="lg" href="#prednosti">
                 Več informacij
@@ -40,7 +39,7 @@ const Hero = () => {
           </Col>
           <Col lg={6}>
             <img 
-              src="/img/stavba.png" 
+              src={`${import.meta.env.BASE_URL}img/stavba.png`}
               alt="Poslovna stavba Kržičeva 4" 
               className="img-fluid rounded-4 shadow-lg"
               style={{ maxHeight: '500px', width: '100%', objectFit: 'cover' }}
