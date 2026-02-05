@@ -24,7 +24,7 @@ Spletna stran Pisarna360 je trenutno funkcionalen prototip (landing page) v Reac
 
 ## Načrt dela za prihodnost (ko stranka potrdi koncept)
 
-- [ ] **TODO:** Prosim, ročno potrdite in commitajte vse trenutne spremembe v Git repozitorij, saj jih jaz ne morem.
+- [x] **TODO:** Prosim, ročno potrdite in commitajte vse trenutne spremembe v Git repozitorij, saj jih jaz ne morem. (COMPLETED)
 
 ### Faza 1: Vsebina in uporabniška izkušnja (COMPLETED)
 1.  **FAQ Sekcija:** Implementacija sekcije z najpogostejšimi vprašanji in odgovori za izboljšanje informiranosti strank. (COMPLETED)
