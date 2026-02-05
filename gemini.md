@@ -43,3 +43,11 @@ Spletna stran Pisarna360 je trenutno funkcionalen prototip (landing page) v Reac
 10. **Testiranje:** Temeljito testiranje na različnih napravah in brskalnikih. (COMPLETED - manual testing required)
 
 Ta načrt zagotavlja postopen razvoj strani, ki bo odziven na povratne informacije stranke in hkrati omogoča hitro implementacijo nujnih funkcionalnosti.
+
+## Dnevnik sprememb (Changelog)
+
+### 5. februar 2026
+*   **Deployment:** Projekt je bil uspešno objavljen na GitHub Pages (javni dostop).
+*   **Popravek gradnje:** Datoteka `FAQ.jsx` premaknjena iz korenske `src` mape v `web/src/components/`, kar je omogočilo uspešno gradnjo (build).
+*   **Čiščenje:** Odstranjena odvečna `src` mapa v korenu projekta.
+*   **Konfiguracija:** Repozitorij nastavljen na `Public` za omogočanje GitHub Pages.
